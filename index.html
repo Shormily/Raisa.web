@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Shormily rai</title>
+</head>
+<body>
+    <header>
+        <div class=" rai ">
+            <div>
+                <img  class="img" class="img rounded-2" src="images/juii.jpg" class="w-50" alt="...">
+               </div>
+              <div>
+                <h5 class="margin fs-2 text-warning ">Welcome To Our Food Resturent and order now If you want to take food today, order now</h5>
+                <button id="first-delivery" type="button" class="order  btn btn-warning">Today day , Delivery charge $20</button>
+               
+              </div>
+         </div>
+       </div>
+    </header>
+   
+    <main class="container p-5 ">
+        <div>
+            <h1 class="text-center p-5 text-success">Welcome to my food items</h1>
+        </div>
+        <div class="card-group  g-5 rounded-3 car   ">
+            <div class="card p-5" >
+               
+              <img class="pic car" src="images/food1.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-warning car">
+                <h5 class="card-title text-light car">different type food</h5>
+                <p class="card-text">We have different types of food available here. Today the price of all the food is the same because the discourse is going on</p>       
+                <button type="button" id="item-two" class="btn btn-danger">buy now</button>
+
+              </div> 
+             
+            </div>
+            <div class="card p-5  ">
+             
+                  <img class="pic car" src="images/foo5.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-primary car">
+                  <h5 class="card-title text-light ">Kabab</h5>
+                  <p class="card-text text-light ">We have different types of food available here. Today the price of all the food is the same because the discourse is going on</p>
+                  <button id="order-now" type="button" class="btn btn-danger">discount Today</button>
+                </div>
+                       
+            </div>
+
+            <div class="card p-5  ">
+                <div class="car ">
+                    <img src="images/food4.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-secondary  ">
+                <h5 class="card-title text-light">Meat</h5>
+                <p class="card-text text-light">We have different types of food available here. Today the price of all the food is the same because the discourse is going on</p>
+                <button id="discount-today" type="button" class="btn btn-success ">Discount Today</button>
+              </div>    
+
+                </div>
+              
+          </div>
+
+        
+
+    </main>
+    <footer>
+        <section class="container p-5">
+            <div class="card-group  g-5 rounded-3 car   ">
+                <div class="card p-5" >                  
+                  <img class="pic car" src="images/huu.jpg" class="card-img-top" alt="...">
+                  <div class="card-body bg-warning car">
+                    <h5 class="card-title text-light car">Faluda</h5>
+                    <p class="card-text">We have different types of food available here. Today the price of all the food is the same because the discourse is going on</p>
+                    <button id="buy-now" type="button" class="btn btn-outline-danger">Buy Now</button>
+                  </div>             
+                </div>
+                <div class="card p-5  ">              
+                      <img class="pic car" src="images/ice cream.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-dark car">
+                      <h5 class="card-title text-light ">Ice-crem</h5>
+                      <p class="card-text text-light ">We have different types of food available here. Today the price of all the food is the same because the discourse is going on</p>
+                      <button id="discount-Today" type="button" class="btn btn-outline-warning">Discount today</button>
+                    </div>                     
+                </div>
+                <div class="card p-5  ">
+                    <div class="car ">
+                        <img src="images/onthon.jpg" class="card-img-top" alt="...">
+                  <div class="card-body bg-danger  ">
+                    <h5 class="card-title text-light">Onthon</h5>
+                    <p class="card-text text-light">We have different types of food available here. Today the price of all the food is the same because the discourse is going on</p>
+                    <button id="price-hight" type="button" class="btn btn-warning">Star Food Buy Price </button>
+                  </div>    
+                    </div>          
+              </div>
+            </section>
+            <div>
+                <p class="text fs-1">If you want to buy the food without discount, calculate and buy how many foods have been excluded at a discount</p>
+            </div>
+
+
+        <table class="container table table-danger fw-bold table-hover  car">
+               
+            <tbody>
+              <tr>
+                <td>Best price</td>
+                <td colspan="2">$ <span id="full-price">1000</span></td>
+              </tr>
+              <tr>
+                <td>Food cost</td>
+                <td colspan="2">$<span id="food-total">50</span></td>
+              </tr>     
+                <td  colspan="2"> Star Food price </td>
+                <td>$<span id="star-cost">50</span></td>
+              </tr>
+              <tr class="table-bordered border-dark">
+                <td colspan="2">Delivery charge</td>
+                <td>$<span id="normal-charge">50</span></td>
+             </tr>
+            </tr>
+            <td colspan="2">Total Price </td>
+            <td>$<span id="total-price">2000</span> </td>
+          </tr>
+            </tbody>
+          </table>
+          <div>
+            <div>
+                
+                
+                <button id="normal-delivery" type="button" class=" today btn btn-danger ">Aug 25 FREE Prime Delivery </button>
+              </div>
+          </div>
+
+          <div class="footer text-center  text link-light fs-1">
+              <p>Thank you for visitinr our website</p>
+          </div>
+    </footer>
+
+
+      
+    <script src="app.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+.rai{
+    display: flex;
+    background-color:rgb(180, 54, 54);
+}
+
+.img{
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+
+}
+
+.margin{
+    margin-top: 120px;
+    margin-left:70px ;
+    margin-right: 80px;
+    text-align: center;
+    text-shadow:2px 2px 5px red ;
+    font-family: 'Akronim', cursive;
+
+}
+
+.order{
+    margin-left: 390px;
+}
+
+
+h1{
+    text-shadow:2px 2px 5px rgb(190, 132, 23) ;
+}
+
+.car:hover{
+    box-shadow: 6px 12px 10px darksalmon;
+}
+
+p{
+    text-shadow:2px 2px 5px red ;
+}
+
+.footer{
+    font-family: 'Akronim', cursive;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: darkred;
+    text-shadow:  6px 12px 10px black;
+}
+
+.today{
+    margin-left: 42%;
+    box-shadow: 2px 2px 20px brown;
+    margin-top: 5px;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Akronim', cursive;
+    margin-left:60px ;
+    margin-right: 60px;
+}
